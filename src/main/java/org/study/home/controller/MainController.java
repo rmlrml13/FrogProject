@@ -20,4 +20,10 @@ public class MainController {
 	public String gameInfo() {
 		return "info/gameInfo";
 	}
+	
+	// 수정한 부분 
+	@GetMapping("/userLogin")
+	public String userLogin() {
+		return "info/gameInfo";
+	}
 }
