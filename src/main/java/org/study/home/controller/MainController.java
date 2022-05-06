@@ -10,14 +10,18 @@ public class MainController {
 	public String index() {
 		return "index";
 	}
-	
-	@GetMapping("/community")
-	public String community() {
-		return "board/community";
+		
+		
+	@GetMapping("/indexFAQ")
+	public String indexFAQ() {
+		return "FAQ/indexFAQ";
 	}
 	
-	@GetMapping("/gameInfo")
-	public String gameInfo() {
-		return "info/gameInfo";
-	}
+	
+	
+	
+	
+	
+	
+	
 }
